@@ -36,7 +36,7 @@
     border-radius: 3px;
     text-transform: uppercase;
   }
-  a.active,a:hover{
+  ul a.active,ul a:hover{
     background: #1b9bff;
     transition: .5s;
   }
@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 .info{
@@ -85,11 +85,9 @@ margin-bottom: 4rem;
     display: flex;
     align-items: center;
     justify-content: left;
-    min-height: calc(45vh - 90px - 90px);
-
 }
 
-footer a li{
+footer a {
         height: 100%;
         float: left;
         display: table-cell;
@@ -116,6 +114,36 @@ footer{
     nav ul li a{
       font-size: 16px;
     }
+    section.heroimg{
+      display: grid;
+      grid-row-gap: 40px;
+    }
+    .info{
+      display: grid;
+      justify-content: space-between;
+      grid-row-gap: 25px;
+
+      margin-bottom: 4rem;
+      }
+      
+      .info2{
+          margin: 0 auto;
+          max-width: 75%;
+          display: grid;
+          margin-bottom: 1rem;
+          grid-row-gap: 25px;
+
+      
+      }
+      .info3{
+          width: 90%;
+          height: 100%;
+          max-width: auto;
+          display: flex;
+          align-items: center;
+          justify-content: left;
+      }      
+
   }
   @media (max-width: 858px){
     .checkbtn{
@@ -139,7 +167,7 @@ footer{
     nav ul li a{
       font-size: 20px;
     }
-    a:hover,a.active{
+    ul a.active,ul a:hover{
       background: none;
       color: #0082e6;
     }
