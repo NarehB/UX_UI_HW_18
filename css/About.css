@@ -95,7 +95,7 @@
     justify-content: center;
     min-height: calc(45vh - 90px - 90px);
 }
-footer a li{
+footer a {
         height: 100%;
         float: left;
         display: table-cell;
